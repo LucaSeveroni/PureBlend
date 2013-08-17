@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <title>Hello World</title>
+</head>
+<body>
+    <div>
+        <div class="row">
+            <b>PURE BENDING "SINGLE REINFORCEMENT LAYER"</b>
+        </div>
+        <div class="row">
+            <div class="left cell-label">Es</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-es" class="txt-pureblending" /></div>
+            <div class="left cell-measure">N/mm2</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">fyk</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-fyk" class="txt-pureblending" /></div>
+            <div class="left cell-measure">N/mm2</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">γs</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-ys" class="txt-pureblending" /></div>
+            <div class="left cell-measure">no dim</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">γc</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-yc" class="txt-pureblending" /></div>
+            <div class="left cell-measure">no dim</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">αcc</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-acc" class="txt-pureblending" /></div>
+            <div class="left cell-measure">no dim</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">fck</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-fck" class="txt-pureblending" /></div>
+            <div class="left cell-measure">N/mm2</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">B</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-b" class="txt-pureblending" /></div>
+            <div class="left cell-measure">mm</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">H</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-h" class="txt-pureblending" /></div>
+            <div class="left cell-measure">mm</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">Cover</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-cover" class="txt-pureblending" /></div>
+            <div class="left cell-measure">mm</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">Links</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-links" class="txt-pureblending" /></div>
+            <div class="left cell-measure">mm</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">Bars diameter</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-bars-diameter" class="txt-pureblending" /></div>
+            <div class="left cell-measure">mm</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">n bars</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-n-bars" class="txt-pureblending" /></div>
+            <div class="left cell-measure">no dim</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">As1</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-as1" class="txt-pureblending" /></div>
+            <div class="left cell-measure">mm2</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">h</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-h2" class="txt-pureblending" /></div>
+            <div class="left cell-measure">mm</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">fcd</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-fcd" class="txt-pureblending" /></div>
+            <div class="left cell-measure">N/mm2</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">fyd</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-fyd" class="txt-pureblending" /></div>
+            <div class="left cell-measure">N/mm2</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">εc</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-ec" class="txt-pureblending" /></div>
+            <div class="left cell-measure">‰</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">εs bilanced cracking</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-es-bilanced-cracking" class="txt-pureblending" /></div>
+            <div class="left cell-measure">‰</div>
+        </div>
+        <div class="row">
+            IN THE HYPOTESIS OF TENSION BARS YIELDED
+        </div>
+        <div class="row">
+            <div class="left cell-label">y</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-y" class="txt-pureblending" /></div>
+            <div class="left cell-measure">mm</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">εs</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-es-2" class="txt-pureblending" /></div>
+            <div class="left cell-measure">no dim</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">εs</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-es-perc" class="txt-pureblending" /></div>
+            <div class="left cell-measure">‰</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">Mrd</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-mrd" class="txt-pureblending" /></div>
+            <div class="left cell-measure">kN*m</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">Med</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-med" class="txt-pureblending" /></div>
+            <div class="left cell-measure">kN*m</div>
+        </div>
+        <div class="row">
+            <div class="left cell-label">Mrd>Med</div>
+            <div class="left cell-texbox">
+                <input type="text" id="txt-mrd-med" class="txt-pureblending" /></div>
+            <div class="left cell-measure">LOGIC</div>
+        </div>
+        <div class="row">
+            <input type="button" id="btn-calculate" value="Calculate" class="standard-button"/>
+            <input type="button" id="btn-reset" value="Reset" class="standard-button"/>
+        </div>
+    </div>
+    <script type="text/javascript" src="phonegap.js"></script>
+    <script type="text/javascript" src="js/pureblending.js"></script>
+</body>
+</html>
