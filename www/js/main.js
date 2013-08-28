@@ -1,9 +1,9 @@
 $(document).ready(function () {
 	$( "#pure-blending" ).bind( "click", function() {
-	  window.location.href = "pureblending.html"
+	  window.location.href = "pure_blending.html"
 	});
 	
 	$( "#pure-blending-double" ).bind( "click", function() {
-	  alert( "User clicked on 'pure-blending-double.'" );
+	   window.location.href = "pure_blending_double_yelded.html"
 	});
 });
