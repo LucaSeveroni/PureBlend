@@ -3,7 +3,11 @@ $(document).ready(function () {
 	  window.location.href = "pure_blending.html"
 	});
 	
-	$( "#pure-blending-double" ).bind( "click", function() {
+	$( "#pure-blending-double-yelded" ).bind( "click", function() {
 	   window.location.href = "pure_blending_double_yelded.html"
+	});
+	
+	$( "#pure-blending-double-not-yelded" ).bind( "click", function() {
+	   window.location.href = "pure_blending_double_not_yelded.html"
 	});
 });
